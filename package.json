@@ -1,0 +1,22 @@
+{
+	"name": "frota-api",
+	"version": "1.0.0",
+	"description": "API para controle de utilização de automóveis de uma empresa",
+	"main": "src/server.js",
+	"engines": {
+		"node": ">=18"
+	},
+	"scripts": {
+		"start": "node src/server.js",
+		"dev": "node --watch src/server.js",
+		"test": "jest"
+	},
+	"license": "ISC",
+	"dependencies": {
+		"express": "^4.19.2"
+	},
+	"devDependencies": {
+		"jest": "^29.7.0",
+		"supertest": "^7.0.0"
+	}
+}
